@@ -1,0 +1,50 @@
+.cards_container{
+    background-color: white;
+    justify-content: space-evenly;
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    margin-top: 38px;
+}
+
+.cards_container h2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    font-family: 'Forum', cursive;
+    font-size: 1.7em;
+}
+
+.cards_container_p{
+    width: 68%;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+    margin-bottom: 35px;
+}
+
+@media (max-width: 460px) {
+    .cards_container h2{
+        font-size: 1.4em;
+    }
+
+    .cards_container_p{
+        font-size: 13px;
+        width: 82%;
+    }
+}
+
+@media (max-width: 320px) {
+    .cards_container h2{
+        font-size: 1em;
+    }
+
+    .cards_container_p{
+        font-size: 12px;
+        width: 92%;
+    }
+}

@@ -1,0 +1,80 @@
+.card{
+    width: 30%;
+    height: auto;
+    justify-content: space-around;
+    display: flex;
+    background-color: white;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    gap: 15px;
+}
+
+.card img{
+    max-width: 50%;
+    object-fit: cover;
+    border-radius: 10px 0px 110px;
+}
+
+.card:hover{
+    box-shadow: rgb(58 93 50 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;
+}
+
+.info{
+    display: flex;
+    gap: 58px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.info p{
+    margin: 0px;
+    display: flex;
+    align-items: flex-end;
+    background-color: #8080802e;
+    padding: 2px 6px 2px 6px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.info button{
+    width: 100%;
+    border-radius: 10px;
+    border-style: none;
+    margin: 10px 10px 10px 0px;
+    background-color: #9acd3242;
+    color: #405515;
+    font-weight: bold;
+    padding: 16px;
+}
+
+.info h2{
+    font-size: 1.2em !important;
+    align-items: center;
+}
+
+.container_tags{
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 15px;
+}
+
+@media (max-width: 1024px) {
+    .card{
+        width: 40%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px){
+    .card{
+        width: 60%;
+    }
+}
+
+@media (max-width: 460px){
+    .card{
+        width: 90%;
+    }
+}

@@ -1,0 +1,76 @@
+.hero{
+    width: 100%;
+    position: relative;
+    background-size: contain;
+    font-family: 'Forum', cursive;
+}
+
+.img_hero{
+    max-width: 100%;
+    object-fit: cover;
+    max-height: auto;
+}
+
+.container_titles{
+    position: absolute;
+    top: 144px;
+    width: 40%;
+    left: 50px;
+}
+
+.container_titles h1{
+    font-size: 4em;
+    color: yellow;
+    margin: 4px 0px 4px 0px;
+}
+
+.container_titles p{
+    color: white;
+    font-size: 1.3em;
+}
+
+.container_titles button{
+    padding: 10px 20px 10px 20px;
+    margin: 0px 10px 0px 0px;
+}
+
+.learn_more{
+    border: 1px solid greenyellow;
+    background-color: #adff2f3d;
+    border-radius: 4px;
+    color: #38ff00;
+    font-weight: 800;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.join_us{
+    border: 1px solid greenyellow;
+    background-color: greenyellow;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #18502a;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+@media (max-width: 768px){
+    .container_titles{
+        width: 80%;
+    }
+}
+
+@media (max-width: 460px){
+    .container_titles{
+        width: 80%;
+        left: 20px;
+    }
+
+    .container_titles p{
+        font-size: 1.1em;
+    }
+
+    .container_titles h1{
+        font-size: 3em;
+    }
+}
